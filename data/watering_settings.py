@@ -1,7 +1,7 @@
 def get_online_settings():
     # --- Durations (in seconds) ---
     settings = dict()
-    settings["BOOT_DURATION"] = 5 * 60       # 5 minutes at boot
+    settings["BOOT_DURATION"] = 0.1 * 60       # 5 minutes at boot
     settings["SMALL_DURATION"] = 2 * 60      # 2 minutes
     settings["LARGE_DURATION"] = 3 * 60      # 3 minutes
 
